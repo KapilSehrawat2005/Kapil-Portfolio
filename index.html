@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kapil's Portfolio</title>
+    <link rel="icon" href="assest/images/light.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assest/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="slider-container">
+        <div class="hamburger-menu" id="hamburgerMenu">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="navbar" id="navbar">
+            <ul>
+                <li><a href="#home"><i class="fa-solid fa-house"></i>Home</a></li>
+                <li><a href="#About"><i class="fa-solid fa-user"></i>About</a></li>
+                <li><a href="#Skills"><i class="fa fa-cogs" aria-hidden="true"></i>Skills</a></li>
+                <li><a href="#Projects"><i class="fa-solid fa-diagram-project"></i>Projects</a></li>
+                <li><a href="#Experience"><i class="fa fa-history" aria-hidden="true"></i>Experience</a></li>
+                <li><a href="#Certificates"><i class="fa fa-certificate" aria-hidden="true"></i>Certificates</a></li>
+                <li><a href="#contact"><i class="fa fa-address-book" aria-hidden="true"></i>Contact</a></li>
+                <a href="assest/images/Kapil Resume.pdf" target="_blank" class="text-light text-decoration-none m-2"><i class="fa-solid fa-file-arrow-down me-2"></i>My Resume</a>
+            </ul>
+        </div>
+        <!-- <label class="switch" style="top: 40vh;">
+            <input type="checkbox" id="darkModeToggle">
+            <span class="mode-slider"></span>
+        </label> -->
+        <div class="slider">
+            <div id="home" class="slide">
+                <div class="Info d-flex">
+                    <div class="my-image"><img src="assest/images/kapil.jpg" alt="Kapil Image" height="300px"></div>
+                    <div class="title">
+                        <h1>Kapil Sehrawat</h1>
+                        <h3>Web Developer | AI&ML Engineer</h3>
+                        <p class="fw-400">I am a B.Tech CSE (AI & ML) student at Shri Vishwakarma Skill University, currently in my 6th semester. Passionate about AI, machine learning, and web development, I have worked on real-world projects and strive to build innovative solutions through technology.</p>
+                        <li><a href="#contact" class="text-light text-decoration-none"><button class="btn btn-primary rounded">Get In Touch</button></a></li>
+                    </div>  
+                </div>
+            </div>
+            <div id="About" class="slide d-none">
+                <div class="Info fade-in">
+                    <div class="title">
+                        <h1>About Me</h1>
+                        <p class="fw-400">I am a B.Tech CSE (AI & ML) student at Shri Vishwakarma Skill University, currently in my 6th semester. Passionate about artificial intelligence, machine learning, and web development, I enjoy building innovative solutions that bridge technology and real-world challenges. With hands-on experience in AI-driven applications and full-stack development, I have worked on projects ranging from smart agriculture solutions to expert relevance systems. I am always eager to explore new technologies, solve complex problems, and contribute to impactful innovations.</p>                            
+                    </div>  
+                </div>
+            </div>
+            <div id="Skills" class="slide d-none">
+                <div class="Info fade-in">
+                    <div class="title">
+                        <div class="d-flex">
+                            <div class="Skills Programming-skill">
+                                <h3>Programming Skill</h3>
+                                <ul>
+                                    <li>Python</li>
+                                    <li>JavaScript</li>
+                                </ul>
+                            </div>
+                            <div class="Skills Web-skill">
+                                <h3>Web Development</h3>
+                                <ul>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>JavaScript</li>
+                                    <li>Node.js</li>
+                                    <li>Express</li>
+                                    <li>MySQL</li>
+                                </ul>
+                            </div>
+                            <div class="Skills AI-skill">
+                                <h3>AI & ML</h3>
+                                <ul>
+                                    <li>Machine Learning</li>
+                                    <li>Deep Learning</li>
+                                    <li>NLP (Natural Language Processing)</li>
+                                </ul>
+                            </div>
+                            <div class="Skills Tools-skill">
+                                <h3>Tools & Technologies</h3>
+                                <ul>
+                                    <li>Git</li>
+                                    <li>VS Code</li>
+                                    <li>Terminal</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+            <div id="Projects" class="slide d-none">
+                <div class="Info fade-in">
+                    <div class="title d-flex">
+                        <div class="project-card">
+                            <h3>SVSU Alumni Portal</h3>
+                            <p>Developed a full-stack web application for displaying alumni information, including alumni registration, alumni gallery, and stories.</p>
+                            <p><strong>Technologies Used : </strong>HTML, CSS, JavaScript, Node.js, JSON</p>
+                        </div>
+                        <div class="project-card">
+                            <h3>Agriculture Assistant</h3>
+                            <p>Developed a console application that provides land information such as humidity, soil type, pH value, temperature, rainfall, and predicts the best crop for your land.</p>
+                            <p><strong>Technologies Used : </strong>Python</p>
+                        </div>
+                        <div class="project-card">
+                            <h3>Spotify Clone</h3>
+                            <p>Developed a user interface for Spotify.</p>
+                            <p><strong>Technologies Used : </strong>HTML, CSS</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="Experience" class="slide d-none">
+                <div class="Info fade-in">
+                    <div class="title d-flex">
+                        <div class="project-card">
+                            <h3>IBM SkillsBuild Summer Internship</h3>
+                            <p>Gained hands-on experience in HTML, CSS, JavaScript, and responsive design. Developed interactive web applications, enhanced UI/UX skills, and worked on real-world projects under industry mentorship.</p>
+                            <p><strong>Duration : </strong>6-week</p>
+                            <p><strong>Link : </strong><a href="https://www.linkedin.com/feed/update/urn:li:activity:7233723306825134081/" target="_blank" class="text-decoration-none">IBM SkillBuilds</a></p>
+                        </div>
+                        <div class="project-card">
+                            <h3>YBI Foundation AI & ML Internship</h3>
+                            <p>Worked on AI and machine learning concepts, including data preprocessing, model training, and evaluation. Developed AI-driven solutions and gained practical experience in building intelligent applications.</p>
+                            <p><strong>Duration : </strong>1 Month</p>
+                            <p><strong>Link : </strong><a href="https://www.linkedin.com/feed/update/urn:li:activity:7242473242320379904/" target="_blank" class="text-decoration-none">YBI Foundation</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="Certificates" class="slide d-none">
+                <div class="Info fade-in">
+                    <div class="title d-flex">
+                        <div class="project-card">
+                            <h3>Project Management Fundamentals</h3>
+                            <p>Developed a strong understanding of project planning, execution, and risk management. Gained skills in team collaboration, resource allocation, and workflow optimization, ensuring efficient project delivery.</p>
+                            <p><strong>Link : </strong><a href="https://www.credly.com/badges/23a192bf-00ad-47e1-85b1-eb6a94e02c07/linked_in?t=sgj5fq" target="_blank" class="text-decoration-none">Project Management Fundamentals</a></p>
+                        </div>
+                        <div class="project-card">
+                            <h3>Web Development Fundamentals</h3>
+                            <p>Acquired expertise in HTML, CSS, JavaScript, and responsive design. Learned to build dynamic and user-friendly web applications, focusing on UI/UX principles, front-end development, and performance optimization.</p>
+                            <p><strong>Link : </strong><a href="https://www.credly.com/badges/d23868b3-7eb4-41f4-a11d-fbf5ef9b9f68" target="_blank" class="text-decoration-none">Web Development Fundamentals</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="contact" class="slide d-none">
+                <div class="Info fade-in">
+                    <div class="title">
+                        <h1>Contact Me</h1>
+                        <div class="contact-info d-flex">
+                            <p><i class="fas fa-phone"></i> +91 8397853961</p>
+                            <p><i class="fas fa-envelope"></i> Kapiljaat0890@gmail.com</p>
+                            <p><i class="fas fa-map-marker-alt"></i> Kalsada, Palwal, 121103</p>
+                        </div>
+                        <div class="social-links d-flex">
+                            <span><i class="fab fa-linkedin"></i><a href="https://www.linkedin.com/in/kapil-sehrawat-318814288/" target="_blank" class="text-decoration-none"> Kapil Sehrawat</a></span><br><br>
+                            <span><i class="fab fa-github"></i><a href="https://github.com/KapilSehrawat2005" target="_blank" class="text-decoration-none"> KapilSehrawat2005</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // const toggleButton = document.getElementById("darkModeToggle");
+        // const body = document.body;
+        const slides = document.querySelectorAll(".slide");
+        const navLinks = document.querySelectorAll("li a");
+        const hamburgerMenu = document.getElementById("hamburgerMenu");
+        const navbar = document.getElementById("navbar");
+
+        /*body.classList.add("dark-mode");
+
+        toggleButton.addEventListener("change", () => {
+            body.classList.toggle("dark-mode");
+            body.classList.toggle("light-mode");
+        });*/
+
+        navLinks.forEach((link, index) => {
+            link.addEventListener("click", (e) => {
+                e.preventDefault();
+                const targetId = link.getAttribute("href").substring(1);
+                const targetSlide = document.getElementById(targetId);
+
+                slides.forEach(slide => {
+                    slide.classList.add("d-none");
+                });
+
+                targetSlide.classList.remove("d-none");
+                targetSlide.classList.add("fade-in");
+
+                if (window.innerWidth <= 950) {
+                    navbar.classList.remove("active");
+                }
+            });
+        });
+
+
+        hamburgerMenu.addEventListener("click", () => {
+            navbar.classList.toggle("active");
+        });
+    </script>
+</body>
+</html>
