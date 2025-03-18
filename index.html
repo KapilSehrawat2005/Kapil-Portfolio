@@ -128,6 +128,12 @@
                             <p><strong>Duration : </strong>1 Month</p>
                             <p><strong>Link : </strong><a href="https://www.linkedin.com/feed/update/urn:li:activity:7242473242320379904/" target="_blank" class="text-decoration-none">YBI Foundation</a></p>
                         </div>
+                        <div class="project-card">
+                            <h3>YBI Foundation AI & ML Internship</h3>
+                            <p>Worked on AI and machine learning concepts, including data preprocessing, model training, and evaluation. Developed AI-driven solutions and gained practical experience in building intelligent applications.</p>
+                            <p><strong>Duration : </strong>1 Month</p>
+                            <p><strong>Link : </strong><a href="https://www.linkedin.com/feed/update/urn:li:activity:7242473242320379904/" target="_blank" class="text-decoration-none">YBI Foundation</a></p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -166,44 +172,6 @@
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
-        // const toggleButton = document.getElementById("darkModeToggle");
-        // const body = document.body;
-        const slides = document.querySelectorAll(".slide");
-        const navLinks = document.querySelectorAll("li a");
-        const hamburgerMenu = document.getElementById("hamburgerMenu");
-        const navbar = document.getElementById("navbar");
-
-        /*body.classList.add("dark-mode");
-
-        toggleButton.addEventListener("change", () => {
-            body.classList.toggle("dark-mode");
-            body.classList.toggle("light-mode");
-        });*/
-
-        navLinks.forEach((link, index) => {
-            link.addEventListener("click", (e) => {
-                e.preventDefault();
-                const targetId = link.getAttribute("href").substring(1);
-                const targetSlide = document.getElementById(targetId);
-
-                slides.forEach(slide => {
-                    slide.classList.add("d-none");
-                });
-
-                targetSlide.classList.remove("d-none");
-                targetSlide.classList.add("fade-in");
-
-                if (window.innerWidth <= 950) {
-                    navbar.classList.remove("active");
-                }
-            });
-        });
-
-
-        hamburgerMenu.addEventListener("click", () => {
-            navbar.classList.toggle("active");
-        });
-    </script>
+    <script src="assest/js/app.js"></script>
 </body>
 </html>

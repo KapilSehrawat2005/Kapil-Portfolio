@@ -308,6 +308,10 @@ li{
         padding: 0.1rem 0.3rem;
         font-size: 10px;
     }
+    .navbar ul a {
+        padding: 0.1rem 0.3rem;
+        font-size: 10px;
+    }
     .title {
         margin-top: 4rem;
     }
