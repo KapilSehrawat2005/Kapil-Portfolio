@@ -31,10 +31,10 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
 | Section | Preview |
 |--------|---------|
 | Home | ![Home](assest/screenshots/home.png) |
-| About | ![About](assets/screenshots/about.png) |
-| Skills | ![Skills](assets/screenshots/skills.png) |
-| Projects | ![Project](assets/screenshots/project.png) |
-| Experience | ![Experience](assets/screenshots/experience.png) |
+| About | ![About](assest/screenshots/about.png) |
+| Skills | ![Skills](assest/screenshots/skills.png) |
+| Projects | ![Project](assest/screenshots/project.png) |
+| Experience | ![Experience](assest/screenshots/experience.png) |
 | Certifications | ![Certificates](assest/screenshots/Certificates.png) |
 | Contact | ![Contact](assest/screenshots/Contact.png) |
 
