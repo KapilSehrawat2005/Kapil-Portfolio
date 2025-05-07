@@ -35,8 +35,8 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
 | Skills | ![Skills](assets/screenshots/skills.png) |
 | Projects | ![Project](assets/screenshots/project.png) |
 | Experience | ![Experience](assets/screenshots/experience.png) |
-| Certifications | ![Certificates](assets/screenshots/Certificates.png) |
-| Contact | ![Contact](assets/screenshots/Contact.png) |
+| Certifications | ![Certificates](assest/screenshots/Certificates.png) |
+| Contact | ![Contact](assest/screenshots/Contact.png) |
 
 ---
 
