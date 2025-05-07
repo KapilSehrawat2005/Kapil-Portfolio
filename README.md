@@ -30,7 +30,7 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
 
 | Section | Preview |
 |--------|---------|
-| Home | ![Home](assets/screenshots/home.png) |
+| Home | ![Home](assest/screenshots/home.png) |
 | About | ![About](assets/screenshots/about.png) |
 | Skills | ![Skills](assets/screenshots/skills.png) |
 | Projects | ![Project](assets/screenshots/project.png) |
