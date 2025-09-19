@@ -7,7 +7,7 @@ body {
     font-family: "Poppins", sans-serif;
     overflow: hidden;
     transition: background-color 0.3s, color 0.3s;
-    background: linear-gradient(to right, #192335, #000000);
+    background: linear-gradient(to right, #192335, #151124);
     color: #ffffff;
 }
 .Info {
@@ -342,6 +342,20 @@ li{
         font-size: 0.9rem;
     }
 }
+@media (min-width: 768px ) and ( max-width : 1050px){
+    #Projects .d-flex{
+        margin-top: 28rem;
+    }
+    #Experience .d-flex{
+        margin-top: 28rem;
+    }
+}
+@media (min-width: 1050px ){
+    #Projects .d-flex{
+        margin-top: 15rem;
+    }
+    
+}
 @media (max-width: 480px) {
     .my-image img {
         width: 150px;
@@ -427,6 +441,20 @@ li{
         font-size: 0.9rem;
     }
 }
+::-webkit-scrollbar {
+    width: 6px;   
+}
+::-webkit-scrollbar-track {
+    background: transparent; 
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
 /*
 .light-mode {
     background: #f4f4f4;
