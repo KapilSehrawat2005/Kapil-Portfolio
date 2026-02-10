@@ -30,13 +30,9 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
 
 | Section | Preview |
 |--------|---------|
-| Home | ![Home](assest/screenshots/home.png) |
-| About | ![About](assest/screenshots/about.png) |
-| Skills | ![Skills](assest/screenshots/skills.png) |
-| Projects | ![Project](assest/screenshots/project.png) |
-| Experience | ![Experience](assest/screenshots/experience.png) |
-| Certifications | ![Certificates](assest/screenshots/Certificates.png) |
-| Contact | ![Contact](assest/screenshots/Contact.png) |
+| Home | ![Home](assest/home.png) |
+| Skills | ![Skills](assest/skills.png) |
+| Experience | ![Experience](assest/experience.png) |
 
 ---
 
